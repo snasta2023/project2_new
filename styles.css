@@ -1,0 +1,401 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #1C1917;
+}
+
+.body-container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.section-subtitle {
+    color: #57534E;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-page1, .button-page4 {
+    border: none;
+    padding: 16px 32px;
+    background-color: #F97316;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    box-shadow: 2px 2px 4px #D6D3D1;
+}
+
+.button-page1:hover, .button-page4:hover{
+background-color:#ea580c;
+}
+
+.button-page1:active, .button-page4:active{
+    background-color:white;
+    color:#F97316;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+}
+
+.phone-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.section {
+    margin: 0 auto;
+    padding: 100px 0 70px;
+}
+
+.section-title {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+
+
+/* header  */
+
+#header {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+/* page1  */
+#page1 {
+    height: 800px;
+    background: url("hero.jpg");
+    background-position: center top;
+    background-size: cover;
+}
+.page1-title {
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    max-width: 50%;
+}
+
+.page1-text {
+    font-size: 20px;
+    margin-bottom: 50px;
+    max-width: 40%;
+    color: #57534E;
+    font-weight: 300;
+    line-height: 22px;
+} 
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    
+}
+
+#menu-item1, #menu-item2 {
+    padding: 0 10px;
+    text-indent: 10px;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: #1C1917;
+    padding: 0 10px;
+   
+}
+
+.menu-item1:hover, .menu-item2:hover{
+    background-color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
+.menu-item1:active, .menu-item2:active{
+    background-color: #ea580c;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+/* page2 */
+
+.page2__containers {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+
+.page2 {
+    flex-grow: 1;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #F5F5F4;
+    width: 30%;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page2-title {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+.page2-text {
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #57534E;
+}
+
+.page2-icon {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #F97316;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px #D6D3D1;
+}
+
+.page3 {
+    display: flex;
+    margin-top: 50px;
+}
+
+.page__all {
+    margin: 0 auto;
+    padding: 100px 0 70px;
+}
+
+.page3-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.page3-text {
+    margin-top: 20px;
+    line-height: 20px;
+    color: #44403C;
+}
+.page3-image {
+    width: 500px;
+    margin-left: 20px;
+}
+
+/* orange */
+.orange {
+    background-color: #FFEDD5;
+    margin: 0 auto;
+    padding: 100px 0 70px;
+}
+
+.page4 {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form {
+    margin: 70px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.form-text {
+    height: 50px;
+    border: 1px solid #D6D3D1;
+    border-radius: 8px;
+    outline: none;
+    font-size: 20px;
+    padding-left: 5px;
+    margin-right: 10px;
+}
+/* student and  otzoviks */
+.student {
+    background-color: #FAFAF9;
+}
+
+.otzoviks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.otzovik {
+    border-bottom: 1px solid #D6D3D1;
+
+    padding: 30px 0;
+    width: 600px;
+}
+
+.otzovik-title {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.otzovik-text {
+    color: #44403C;
+    line-height: 20px;
+    font-weight: 300;
+}
+/* abonements */
+
+.abonements {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    
+    
+   
+}
+
+.abonement {
+    flex-grow: 1;
+    border: 1px solid #E7E5E4;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.abonement-title {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #F97316;
+}
+
+.abonement-price {
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.abonement-icons {
+    flex-grow: 1;
+
+    margin-top: 20px;
+}
+
+.abonement-icon {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    color: #78716C;
+    font-size: 14px;
+}
+
+.check-icon {
+    width: 20px;
+    height: 20px;
+    color: #65A30D;
+    margin-right: 5px;
+}
+
+.abonement-button {
+    background-color: #FFEDD5;
+    border-radius: 8px;
+    width: 100%;
+    color: #EA580C;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.abonement-button:hover{
+    background-color:#ea580c;
+    color: white;
+}
+
+.abonement-button:active{
+    background-color:#fed7aa;
+    color: #ea580c;
+}
+
+/* footer */
+footer {
+    background-color: #E7E5E4;
+    height: 150px;
+}
+
+.footer-text {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    color: #78716C;
+}
+
+
+
+.fa {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: inline-block;
+}
+
+.fa-brands {
+    color: #78716C;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.fa-twitter:hover, .fa-instagram:hover, .fa-facebook-official:hover  {
+    padding:10px;
+    background-color: white;
+    }
+
+    .fa-twitter:active, .fa-instagram:active,.fa-facebook-official:active{
+    padding:10px;
+    background-color:#57534e;
+    color: white;
+    border-radius: 5px;
+    }
+
+.fa-twitter, .fa-instagram, .fa-facebook-official {
+    color: #78716C;
+    display: inline-block;
+}
