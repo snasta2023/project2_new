@@ -415,7 +415,7 @@ footer {
     #header {justify-content: flex-start;
             flex-wrap: wrap;}
             
-    #page1 { height: 700px;
+    #page1 { height: 666px;
         background-position: center top;
         background-size: cover;
     }
@@ -453,7 +453,7 @@ footer {
             .section-subtitle {
             font-size: 19px;}
             .otzovik {
-            width: 370px;}
+            width: 350px;}
             .abonements{
                 flex-direction: column;
             }
@@ -463,5 +463,9 @@ footer {
                 flex-direction: column;
                 padding-top: 25px;
                 height: 70%;
+            }
+            .orange{
+            padding-left: 10px;
+            padding-right: 10px;
             }
 }
