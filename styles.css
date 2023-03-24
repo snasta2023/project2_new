@@ -78,19 +78,25 @@ background-color:#ea580c;
 }
 
 /* page1  */
+
 #page1 {
     height: 800px;
     background: url("hero.jpg");
     background-position: center top;
     background-size: cover;
 }
-.page1-title {
-    font-size: 60px;
-    font-weight: 700;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    max-width: 50%;
-}
+
+
+
+
+    .page1-title {
+        font-size: 60px;
+        font-weight: 700;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        max-width: 50%;
+    }
+    
 
 .page1-text {
     font-size: 20px;
@@ -142,6 +148,7 @@ background-color:#ea580c;
     padding-bottom: 50px;
     margin: 0 auto;
 }
+
 
 .page2 {
     flex-grow: 1;
@@ -398,4 +405,63 @@ footer {
 .fa-twitter, .fa-instagram, .fa-facebook-official {
     color: #78716C;
     display: inline-block;
+}
+
+/* адаптивная верстка для экрана под pixel 5 */
+@media (max-width: 600px)
+{   .body{
+    margin: 1%;
+}
+    #header {justify-content: flex-start;
+            flex-wrap: wrap;}
+            
+    #page1 { height: 700px;
+        background-position: center top;
+        background-size: cover;
+    }
+
+    .page2__containers{flex-direction: column;}
+    .page2 {width: 90%;
+    }
+    .page1-title {
+        font-size: 30px;
+        margin-left: 10px;}
+    .page1-text {
+        font-size: 15px;
+        margin-left: 10px;}
+    .body-container {max-width: 600px;
+        width: 100%;}
+        .page3 {flex-direction: column;}
+        .page3-image {
+            width: 300px;}
+        .page3-text, .page3-title {
+            margin: 10px;}
+        .form{
+            flex-direction: column;
+        }
+        .form-text {
+            height: 45px;
+            margin-left: 10px;}
+        .button-page4 {
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;}
+            .form-text {
+            margin-bottom: 10px;}
+            .section-title {
+            font-size: 36px;}
+            .section-subtitle {
+            font-size: 19px;}
+            .otzovik {
+            width: 370px;}
+            .abonements{
+                flex-direction: column;
+            }
+            .abonement {
+                width: 90%;}
+            .footer-text{
+                flex-direction: column;
+                padding-top: 25px;
+                height: 70%;
+            }
 }
