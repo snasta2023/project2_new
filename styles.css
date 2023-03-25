@@ -408,7 +408,7 @@ footer {
 }
 
 /* адаптивная верстка для экрана под pixel 5 */
-@media (max-width: 600px)
+@media (max-width: 700px)
 {   .body{
     margin: 1%;
 }
@@ -422,6 +422,7 @@ footer {
 
     .page2__containers{flex-direction: column;}
     .page2 {width: 90%;
+            align-self: center;
     }
     .page1-title {
         font-size: 30px;
@@ -433,7 +434,10 @@ footer {
         width: 100%;}
         .page3 {flex-direction: column;}
         .page3-image {
-            width: 300px;}
+            width: 300px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;}
         .page3-text, .page3-title {
             margin: 10px;}
         .form{
@@ -453,12 +457,13 @@ footer {
             .section-subtitle {
             font-size: 19px;}
             .otzovik {
-            width: 350px;}
+            width: 313px;}
             .abonements{
                 flex-direction: column;
             }
             .abonement {
-                width: 90%;}
+                width: 90%;
+                align-self: center;}
             .footer-text{
                 flex-direction: column;
                 padding-top: 25px;
